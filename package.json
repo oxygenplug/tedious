@@ -12,7 +12,7 @@
     "Phil Dodderidge <pdodde@poyntz.com>",
     "Zach Aller"
   ],
-  "name": "@OXYGENPLUG/TEDIOUS",
+  "name": "@oxygenplug/tedious",
   "description": "A TDS driver, for connecting to MS SQLServer databases.",
   "keywords": [
     "sql",
@@ -25,13 +25,15 @@
     "azure"
   ],
   "homepage": "https://github.com/tediousjs/tedious",
-  "bugs": "https://github.com/tediousjs/tedious/issues",
+  "bugs": {
+    "url": "https://github.com/tediousjs/tedious/issues"
+  },
   "license": "MIT",
   "version": "0.0.0-dev",
   "main": "./lib/tedious.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/oxygenplug/tedious.git"
+    "url": "git+https://github.com/oxygenplug/tedious.git"
   },
   "engines": {
     "node": ">= 6"
@@ -142,5 +144,9 @@
     "extension": [
       ".ts"
     ]
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
   }
 }

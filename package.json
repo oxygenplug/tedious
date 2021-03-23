@@ -29,7 +29,7 @@
     "url": "https://github.com/tediousjs/tedious/issues"
   },
   "license": "MIT",
-  "version": "0.0.1-beta",
+  "version": "0.1.0-beta",
   "main": "./lib/tedious.js",
   "repository": {
     "type": "git",
